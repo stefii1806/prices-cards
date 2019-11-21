@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #0a6320;
+  font-family: "Montserrat", sans-serif;
+}
+
+.tag {
+  text-align: center;
+  margin: 3vh;
+  color: white;
+}
+
+.prices-wrapper,
+.plan,
+.precios,
+.info,
+.btn {
+  text-align: center;
+}
+
+.wrapper,
+.prices-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 3vh;
+}
+
+.prices {
+  background: white;
+  margin: 5px 13px;
+  width: 250px;
+  padding: 30px 10px;
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.precio {
+  font-size: 3rem;
+  color: #0a6320;
+}
+
+.prices-wrapper p span {
+  font-size: 1rem;
+  color: #857c7c;
+}
+
+.info {
+  color: #857c7c;
+}
+
+.btn {
+  display: block;
+  margin-top: 1rem;
+  text-decoration: none;
+  color: white;
+  background: #0a6320;
+  padding: 10px;
+  border-radius: 25px;
+}
+/*# sourceMappingURL=stylesprices.css.map */

@@ -1,0 +1,83 @@
+$green: #0a6320;
+$font: 'Montserrat',
+sans-serif;
+$info-color: rgb(133, 124, 124);
+$btn-color: white;
+$title-color: white;
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: $green;
+    font-family: $font;
+}
+
+
+.tag {
+    text-align: center;
+    margin: 3vh;
+    color: $title-color;
+}
+
+
+.prices-wrapper,
+.plan,
+.precios,
+.info,
+.btn {
+    text-align: center;
+}
+
+.wrapper,
+.prices-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 3vh;
+}
+
+
+
+.prices {
+    background: white;
+    margin: 5px 13px;
+    width: 250px;
+    padding: 30px 10px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.precio {
+    font-size: 3rem;
+    color: $green;
+}
+
+.prices-wrapper p span {
+    font-size: 1rem;
+    color: $info-color;
+}
+
+.info {
+    color: $info-color;
+}
+
+.btn {
+    display: block;
+    margin-top: 1rem;
+    text-decoration: none;
+    color: $btn-color;
+    background: $green;
+    padding: 10px;
+    border-radius: 25px;
+
+}
